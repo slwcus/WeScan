@@ -118,11 +118,9 @@ final class HomeViewController: UIViewController {
         let scannerViewController = ImageScannerController(delegate: self)
         scannerViewController.modalPresentationStyle = .fullScreen
         
-        if #available(iOS 13.0, *) {
-            scannerViewController.navigationBar.tintColor = .label
-        } else {
+       
             scannerViewController.navigationBar.tintColor = .black
-        }
+        
         
         present(scannerViewController, animated: true)
     }

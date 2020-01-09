@@ -77,6 +77,7 @@
 		B9E49DBE21BFD3BB000E994D /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E49DBB21BFD3BA000E994D /* rotate.png */; };
 		B9E49DBF21BFD3BB000E994D /* rotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E49DBC21BFD3BB000E994D /* rotate@2x.png */; };
 		B9E49DC021BFD3BB000E994D /* rotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E49DBD21BFD3BB000E994D /* rotate@3x.png */; };
+		BF82A88623C6D8FF00BAF100 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97B49CB216C6C6800B2235B /* Localizable.strings */; };
 		C31DD8A320C087D80072D439 /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31DD8A220C087D80072D439 /* ZoomGestureController.swift */; };
 		C3789C9B20CC69AD001B423F /* QuadrilateralViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3789C9A20CC69AD001B423F /* QuadrilateralViewTests.swift */; };
 		C3E2EB8E20B8970800A42E58 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E2EB8D20B8970800A42E58 /* UIImage+Utils.swift */; };
@@ -267,6 +268,7 @@
 		B9E49DBB21BFD3BA000E994D /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
 		B9E49DBC21BFD3BB000E994D /* rotate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate@2x.png"; sourceTree = "<group>"; };
 		B9E49DBD21BFD3BB000E994D /* rotate@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate@3x.png"; sourceTree = "<group>"; };
+		BF82A88523C6D3F100BAF100 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C31DD8A220C087D80072D439 /* ZoomGestureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGestureController.swift; sourceTree = "<group>"; };
 		C3789C9A20CC69AD001B423F /* QuadrilateralViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrilateralViewTests.swift; sourceTree = "<group>"; };
 		C3E2EB8D20B8970800A42E58 /* UIImage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
@@ -664,6 +666,7 @@
 				de,
 				"pt-BR",
 				hu,
+				ru,
 			);
 			mainGroup = A1D4BCAE202C4F3800FCDDEC;
 			productRefGroup = A1D4BCB8202C4F3800FCDDEC /* Products */;
@@ -752,6 +755,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D4BCC5202C4F3800FCDDEC /* LaunchScreen.storyboard in Resources */,
+				BF82A88623C6D8FF00BAF100 /* Localizable.strings in Resources */,
 				A1D4BCC2202C4F3800FCDDEC /* Assets.xcassets in Resources */,
 				A1D4BCC0202C4F3800FCDDEC /* Main.storyboard in Resources */,
 			);
@@ -914,6 +918,7 @@
 				9541C84122155DD3005FBCD3 /* de */,
 				82A414A022B9391B00DF5831 /* pt-BR */,
 				274DF35922D363BC0095CE49 /* hu */,
+				BF82A88523C6D3F100BAF100 /* ru */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -972,7 +977,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1026,7 +1031,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
